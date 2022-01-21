@@ -1,4 +1,1 @@
-export const  priceFormat = price => {
-  if (!price) return "$0";
-  return `$${price}`;
-}
+export const priceFormat = (price) => (!price ? "$0" : `$${price}`);
